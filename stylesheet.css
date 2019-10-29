@@ -1,0 +1,247 @@
+body {
+    background: aliceblue;
+}
+
+/* Nav menu */
+div.menu {
+    text-align: center;
+    background-color: none ;
+}
+a.menu:link {
+    background-color: none ;
+    color: rgb(184, 180, 180);
+    text-shadow: rgb(78, 59, 59) 10px -5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.menu:visited {
+    background-color: none ;
+    color: rgb(184, 180, 180);
+    text-shadow: rgb(78, 59, 59) 10px -5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+a.menu:active {
+    background-color: none ;
+    color: rgb(184, 180, 180);
+    text-shadow: rgb(78, 59, 59) 10px -5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+a.menu:hover {
+    background-color: none ;
+    color: rgb(184, 180, 180);
+    text-shadow: rgb(78, 59, 59) 10px -5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+div.spacer {
+    padding: 2rem;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3.5rem;
+    padding: 2rem;
+    width: 11rem;
+    text-align: center;
+
+    background-color: rgb(127, 128, 139);
+    color: #fff;
+    transition: height 1s;
+    overflow: hidden;
+}
+nav:hover {
+    height: 100vh;
+    transition: height 1.5s;
+}
+
+div.author {
+    font-family: fantasy;
+    float: center;
+    position: fixed;
+    text-align: center;
+    width: 3rem;
+    font-size: 4rem;
+    padding: .5rem;
+    border: rgb(0, 0, 0);
+    color: rgb(78, 59, 59);
+    text-shadow: rgb(184, 180, 180) 4px 10px;
+    top: 25%;
+    right: 50%;
+}
+
+/* Fox Poem Link */
+a.tab-fox:link {
+    padding: 1rem;
+    background-color: rgb(204, 99, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.479) 8px 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.tab-fox:visited  {
+    padding: 1rem;
+    background-color: rgb(204, 99, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.479) 8px 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.tab-fox:active {
+    padding: 1rem;
+    background-color: rgb(204, 99, 0);
+    color: rgb(0, 0, 0);
+    text-shadow: rgba(0, 0, 0, 0.479) 8px 5px 5px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.tab-fox:hover {
+    padding: 1.5rem;
+    text-decoration: none;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(204, 99, 0);
+    cursor: pointer;
+    border: rgb(255, 255, 255) 3rem;
+    transition: background-color 1.5s, color 1.5s, padding 1.5s, font-weight 2s, border 1s;
+}
+/* Pond Poem Link */
+a.tab-pond:link {
+    padding: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(92, 152, 207);
+    color: aliceblue;
+    text-shadow: rgb(24, 63, 99) 8px 5px 5px;
+    cursor: pointer;
+}
+a.tab-pond:visited  {
+    padding: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(92, 152, 207);
+    color: aliceblue;
+    text-shadow: text-shadow rgb(24, 63, 99) 8px 5px 5px;
+    cursor: pointer;
+}
+a.tab-pond:active {
+    padding: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(92, 152, 207);
+    color: aliceblue;
+    text-shadow: text-shadow rgb(24, 63, 99) 8px 5px 5px;
+    cursor: pointer;
+}
+a.tab-pond:hover {
+    border: 1rem;
+    border-radius: 3rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 152, 207);
+    text-shadow: text-shadow rgb(24, 63, 99) 8px 5px 5px;
+    cursor: pointer;
+    transition: background-color 1.5s, color 1.5s, padding 1.5s, font-weight 2s, border-radius 1s;
+}
+
+/* Fox Poem Box */
+span.fox-poem {
+    font-family: fantasy;
+    position: absolute;
+    font-size: 2rem;
+    padding: 2rem;
+    float: center;
+    border: 3px solid #00000073;
+    border-radius: 5rem;
+    background-color: #00000073;
+    top: 25%;
+    right: 35%;
+    
+}
+
+    /* Fox poem, noctilucent animation */
+.nocBox {
+    letter-spacing: 2px;
+    background-color: #011750;
+    background-image: linear-gradient(#011750,#6095C1,#6095C1, rgb(223, 132, 120));
+    padding: 10px;
+    color: #FAFBFC;
+}
+.noc {
+    animation: colorNoc 5s linear 0s infinite alternate-reverse;
+}
+@keyframes colorNoc {
+    0% {color: #FAFBFC;
+    }
+    25% {color: #CADCEF;
+    }
+    50% {color: #45759D;
+    }
+    75% {color: #004C94;
+    }
+    1006% {color: #002462;
+    }
+}
+    /* Fox poem, fall animation */
+.fall {
+    background: linear-gradient(to right,  rgb(245, 245, 23), rgb(218, 106, 3), rgb(218, 106, 3), rgb(165, 28, 23));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    animation: fall 2s infinite alternate-reverse;
+}
+@keyframes fall {
+    from {top: 0px;}
+    to {top: 32px;}
+}
+
+    /* Fox poem, sly fox text */
+.slyFox {
+    letter-spacing: 3px;
+    font-style: italic;
+    background: linear-gradient(to left, #000000, #CC6300, rgb(160, 78, 1), #ffffff);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+    /* Fox poem, sneer text */
+.sneer {
+    font-size: 1.5rem;
+}
+
+    /* Fox poem, hidden text */
+.hidden {
+    font-size: 1.5rem;
+    animation: colorHidden 4s linear 0s infinite alternate-reverse;
+}
+@keyframes colorHidden {
+    from {color: #000000}
+    to {color: #00000000}
+}
+
+.innocent {
+
+    color: white;
+
+}
+
+
